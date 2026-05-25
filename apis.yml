@@ -1,0 +1,303 @@
+aid: bt-com
+name: BT Group
+description: >-
+  BT Group plc (British Telecommunications) is the United Kingdom's largest
+  fixed-line, broadband, and mobile communications provider, headquartered in
+  London with operations spanning consumer, business, wholesale, and global
+  enterprise markets. The group is organised around three customer-facing
+  brands — BT, EE, and Plusnet — and a wholesale division that sells capacity
+  and access to other communications providers. BT Group operates the UK's
+  largest mobile network (EE), runs fibre and copper access through Openreach
+  (a legally separate group company), and provides networked IT and security
+  services to multinational enterprises and the UK public sector. The group
+  publishes a public developer programme at developer.bt.com that exposes a
+  growing catalogue of REST APIs across two main domains: charging and
+  crediting (Direct Carrier Billing, Crediting, Premium SMS) and digital
+  identity / fraud prevention (SIM Swap, Network Identity, Call Divert
+  Protection), alongside wholesale and operational APIs (Broadband One,
+  Quote Management, Address Management, Appointment Management, Product and
+  Network Availability, HubCo Voice, Global Voice Services, IMEI Lookup,
+  Home Network, Rail Insights, Location Insights for London, and a Travel
+  Journey API Platform). The portal supports sandbox onboarding with Client
+  ID / Client Secret OAuth 2.0 credentials and progression to production
+  under a commercial agreement with an account team. In April 2025 BT
+  announced a federated API management partnership with Kong (Kong Konnect)
+  to consolidate its previously fragmented API estate, strengthen
+  governance, and offer a self-service developer experience across the
+  group.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Telecommunications
+  - Telco
+  - Mobile Network
+  - Broadband
+  - Fibre
+  - Wholesale
+  - Network Identity
+  - SIM Swap
+  - Direct Carrier Billing
+  - Premium SMS
+  - Crediting
+  - Fraud Prevention
+  - Digital Identity
+  - Voice
+  - Ethernet
+  - Address Management
+  - Appointment Management
+  - Quote Management
+  - IMEI
+  - Rail
+  - Location Insights
+  - Travel
+  - Openreach
+  - EE
+  - Plusnet
+  - United Kingdom
+  - CAMARA
+  - Open Gateway
+url: https://raw.githubusercontent.com/api-evangelist/bt-com/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis:
+  - aid: bt-com:direct-carrier-billing
+    name: Direct Carrier Billing API
+    description: >-
+      Charge one-off or recurring purchases directly to a verified end user's
+      BT or EE mobile bill or pre-pay credit, enabling carrier-billed
+      payments without re-collecting card or bank credentials.
+    humanURL: https://developer.bt.com/products/direct-carrier-billing-api
+    tags:
+      - Direct Carrier Billing
+      - Charging
+      - Payments
+      - Mobile Billing
+      - EE
+      - BT Mobile
+  - aid: bt-com:sim-swap
+    name: SIM Swap Detection API
+    description: >-
+      Query when a mobile subscriber's SIM was last changed so relying
+      parties can detect SIM-swap account-takeover attacks before sending
+      SMS one-time passcodes or completing high-risk authentications.
+    humanURL: https://developer.bt.com/products/sim-swap
+    tags:
+      - SIM Swap
+      - Digital Identity
+      - Fraud Prevention
+      - Account Takeover
+      - Authentication
+      - CAMARA
+  - aid: bt-com:network-identity
+    name: Network Identity API
+    description: >-
+      Determine whether a given mobile number is on the EE or BT Mobile
+      network, or on one of EE's MVNO partners, returning an anonymised
+      mobile subscription reference (AMSR) to minimise data exposure.
+    humanURL: https://developer.bt.com/products/network-identity-api
+    tags:
+      - Network Identity
+      - MVNO
+      - Mobile Network
+      - Anonymised
+      - Routing
+  - aid: bt-com:broadband-one
+    name: Broadband One Order API
+    description: >-
+      Place broadband orders from communications-provider systems directly
+      into BT Wholesale's "The Hub" order platform for Broadband One
+      products.
+    humanURL: https://developer.bt.com/api-documentation/broadband-one
+    tags:
+      - Broadband
+      - Wholesale
+      - Ordering
+      - The Hub
+  - aid: bt-com:quote-management-ethernet
+    name: Quote Management (Ethernet)
+    description: >-
+      Create and retrieve quotes for BT Wholesale Ethernet and Optical
+      connectivity products as part of B2B ordering flows.
+    humanURL: https://developer.bt.com/api-documentation/quote-management-ethernet
+    tags:
+      - Ethernet
+      - Optical
+      - Wholesale
+      - Quoting
+  - aid: bt-com:address-management
+    name: Address Management API
+    description: >-
+      Search the Rest of BT (RoBT) and Openreach address databases to
+      retrieve address records and address keys for ordering, and create
+      addresses when no matching record exists.
+    humanURL: https://developer.bt.com/api-documentation/address-management-0
+    tags:
+      - Address
+      - Openreach
+      - Wholesale
+      - Reference Data
+  - aid: bt-com:appointment-management
+    name: Appointment Management API
+    description: >-
+      Book, amend, and cancel engineer appointment slots for wholesale
+      broadband and voice provisioning workflows.
+    humanURL: https://developer.bt.com/api-documentation/appointment-management
+    tags:
+      - Appointments
+      - Provisioning
+      - Wholesale
+      - Field Service
+  - aid: bt-com:product-network-availability
+    name: Product and Network Availability API
+    description: >-
+      Check product and network availability at a given address or premises
+      for wholesale broadband and voice services prior to ordering.
+    humanURL: https://developer.bt.com/api-documentation/product-and-network-availability
+    tags:
+      - Availability
+      - Broadband
+      - Wholesale
+      - Pre-Order
+  - aid: bt-com:hubco-whce
+    name: BT Wholesale HubCo WHCE API
+    description: >-
+      Wholesale Hosted Centrex / Voice (WHCE) API for managing hosted voice
+      services delivered via BT Wholesale's HubCo platform.
+    humanURL: https://developer.bt.com/api-documentation/bt-wholesale-api-hubco-whce
+    tags:
+      - Voice
+      - Hosted Centrex
+      - Wholesale
+      - HubCo
+  - aid: bt-com:global-voice-services
+    name: Global Voice Services API
+    description: >-
+      Initiate ordering of phone numbers and configuration for BT Global
+      Voice Services consumed by multinational enterprise customers.
+    humanURL: https://developer.bt.com/products/global-voice-services
+    tags:
+      - Voice
+      - Global Services
+      - Enterprise
+      - Number Management
+  - aid: bt-com:imei-lookup
+    name: IMEI Lookup API
+    description: >-
+      Retrieve the IMEI associated with a given MSISDN for device
+      identification, fraud, and entitlement checks.
+    humanURL: https://developer.bt.com/products/imei-lookup-0
+    tags:
+      - IMEI
+      - MSISDN
+      - Device Identity
+      - Mobile
+  - aid: bt-com:home-network
+    name: Home Network API
+    description: >-
+      Verify whether a customer's phone is currently connected to EE's
+      mobile network, supporting risk decisioning and step-up
+      authentication.
+    humanURL: https://developer.bt.com/products/home-network-0
+    tags:
+      - Network Verification
+      - EE
+      - Authentication
+      - Fraud Prevention
+  - aid: bt-com:rail-insights
+    name: Rail Insights API
+    description: >-
+      Provide strategic insights into current and future demand on the UK's
+      railway network derived from BT's mobile network and analytics
+      capabilities.
+    humanURL: https://developer.bt.com/products/rail-network-api
+    tags:
+      - Rail
+      - Transportation
+      - Insights
+      - Active Intelligence
+      - United Kingdom
+  - aid: bt-com:location-insights-london
+    name: Location Insights for London API
+    description: >-
+      Access insights on footfall activity and visitor catchments across
+      any location in London, derived from anonymised mobile network
+      signals.
+    humanURL: https://developer.bt.com/products/location-insights-london
+    tags:
+      - Location
+      - Footfall
+      - London
+      - Insights
+      - Active Intelligence
+  - aid: bt-com:travel-journey
+    name: Travel Journey API Platform
+    description: >-
+      Platform of APIs supplying travel and journey intelligence derived
+      from BT's network and Active Intelligence capabilities.
+    humanURL: https://developer.bt.com/api-documentation/travel-journey-api-platform
+    tags:
+      - Travel
+      - Journeys
+      - Insights
+      - Active Intelligence
+common:
+  - type: Website
+    url: https://www.bt.com
+  - type: Group
+    url: https://www.bt.com/about
+  - type: Developer
+    url: https://developer.bt.com
+  - type: Documentation
+    url: https://developer.bt.com/api-documentation
+  - type: Products
+    url: https://developer.bt.com/products
+  - type: KnowledgeCenter
+    url: https://developer.bt.com/knowledge-center/docs/getting-started
+  - type: HowToGuides
+    url: https://developer.bt.com/knowledge-center/docs/how-guides
+  - type: SignUp
+    url: https://developer.bt.com/user/register
+  - type: SignIn
+    url: https://developer.bt.com/user/login
+  - type: Search
+    url: https://developer.bt.com/search
+  - type: BTBusiness
+    url: https://business.bt.com
+  - type: BTWholesale
+    url: https://www.btwholesale.com
+  - type: EE
+    url: https://ee.co.uk
+  - type: Plusnet
+    url: https://www.plusnet.com
+  - type: Openreach
+    url: https://www.openreach.com
+  - type: GlobalServices
+    url: https://www.globalservices.bt.com
+  - type: BTGroupInvestors
+    url: https://www.bt.com/about/investors
+  - type: Newsroom
+    url: https://newsroom.bt.com
+  - type: GitHub
+    url: https://github.com/BT-OpenSource
+  - type: GitHubBTplc
+    url: https://github.com/BTplc
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/bt
+  - type: Twitter
+    url: https://twitter.com/bt_uk
+  - type: YouTube
+    url: https://www.youtube.com/user/btgroup
+  - type: Careers
+    url: https://www.bt.com/careers
+  - type: Contact
+    url: https://www.bt.com/help/home
+  - type: PrivacyPolicy
+    url: https://www.bt.com/legal/privacy-and-cookies
+  - type: TermsOfUse
+    url: https://www.bt.com/legal/terms-of-use
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
