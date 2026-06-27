@@ -258,9 +258,9 @@ common:
     url: https://developer.bt.com/knowledge-center/docs/getting-started
   - type: HowToGuides
     url: https://developer.bt.com/knowledge-center/docs/how-guides
-  - type: SignUp
+  - type: Signup
     url: https://developer.bt.com/user/register
-  - type: SignIn
+  - type: Login
     url: https://developer.bt.com/user/login
   - type: Search
     url: https://developer.bt.com/search
@@ -296,7 +296,7 @@ common:
     url: https://www.bt.com/help/home
   - type: PrivacyPolicy
     url: https://www.bt.com/legal/privacy-and-cookies
-  - type: TermsOfUse
+  - type: TermsOfService
     url: https://www.bt.com/legal/terms-of-use
 maintainers:
   - FN: Kin Lane
