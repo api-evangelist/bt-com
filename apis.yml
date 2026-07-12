@@ -244,6 +244,10 @@ apis:
       - Insights
       - Active Intelligence
 common:
+  - type: VulnerabilityDisclosure
+    url: security/bt-com-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/bt-com-domain-security.yml
   - type: Website
     url: https://www.bt.com
   - type: Group
