@@ -72,7 +72,7 @@ tags:
 url: https://raw.githubusercontent.com/api-evangelist/bt-com/refs/heads/main/apis.yml
 created: '2026-05-25'
 modified: '2026-05-25'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 apis:
   - aid: bt-com:direct-carrier-billing
     name: Direct Carrier Billing API
