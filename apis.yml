@@ -199,6 +199,11 @@ apis:
       - Appointments
       - Provisioning
       - Wholesale
+      - Field Service Management
+    tags_raw:
+      - Appointments
+      - Provisioning
+      - Wholesale
       - Field Service
   - aid: bt-com:product-network-availability
     name: Product and Network Availability API
